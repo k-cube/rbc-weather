@@ -19,6 +19,7 @@ androidxHiltNavigationCompose = "1.2.0"
 hiltExt = "1.2.0"
 ksp = "2.0.21-1.0.25"
 activity = "1.10.1"
+playServicesLocation = "21.3.0"
 
 
 [libraries]
@@ -50,6 +51,7 @@ hilt-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", v
 hilt-ext-compiler = { group = "androidx.hilt", name = "hilt-compiler", version.ref = "hiltExt" }
 hilt-ext-work = { group = "androidx.hilt", name = "hilt-work", version.ref = "hiltExt" }
 androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+play-services-location = { group = "com.google.android.gms", name = "play-services-location", version.ref = "playServicesLocation" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
