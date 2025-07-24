@@ -1,11 +1,12 @@
 package com.example.rbcweather.data.repository
 
-import com.example.rbcweather.data.models.WeatherModel
+import com.example.rbcweather.data.models.toWeatherEntity
 import com.example.rbcweather.data.network.WeatherApi
-import com.example.rbcweather.domain.Result
+import com.example.rbcweather.domain.Response
 import com.example.rbcweather.domain.WeatherEntity
-
 import com.example.rbcweather.domain.repository.WeatherRepository
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.flow
 import javax.inject.Inject
 
 class WeatherRepositoryImpl @Inject constructor(
@@ -14,14 +15,13 @@ class WeatherRepositoryImpl @Inject constructor(
     override suspend fun getWeather(
         lat: Double,
         long: Double
-    ): Result<WeatherEntity> {
-        return try {
-            val weatherresponse = api.getWeatherData(lat= lat, long = long)
-            return Result.Success(WeatherEntity())
+    ): Flow<Response<WeatherEntity>> = flow {
+        try {
+            val weatherResponse = api.getWeatherData(lat = lat, long = long)
+            val entity = weatherResponse.toWeatherEntity()
+            emit(Response.Success(entity))
         } catch (e: Exception) {
-            Result.Error()
+            emit(Response.Error(e.message ?: "Something went wrong"))
         }
     }
-
-
 }

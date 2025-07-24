@@ -6,14 +6,16 @@ plugins {
     alias(libs.plugins.ksp)
     alias(libs.plugins.hilt)
 }
-
+hilt {
+    enableAggregatingTask = false
+}
 android {
     namespace = "com.example.rbcweather"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.example.rbcweather"
-        minSdk = 24
+        minSdk = 26
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
@@ -71,5 +73,6 @@ dependencies {
     implementation(libs.androidx.hilt.navigation.compose)
     implementation(libs.androidx.hilt.navigation.compose)
     ksp(libs.hilt.compiler)
-
+    implementation(libs.vico.compose)
+    implementation(libs.vico.compose.m3)
 }

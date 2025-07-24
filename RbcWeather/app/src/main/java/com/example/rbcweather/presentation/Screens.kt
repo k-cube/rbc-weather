@@ -1,10 +1,13 @@
 package com.example.rbcweather.presentation
 
-import com.example.rbcweather.domain.WeatherEntity
+import com.example.rbcweather.domain.WeatherDailyInfo
+import kotlinx.serialization.Serializable
 
-sealed class Screens {
-    object Main: Screens()
 
-    data class Details(val data: WeatherEntity): Screens()
+@Serializable
+data object MainScreen
 
-}
+@Serializable
+data class DetailScreen(
+    val weather: WeatherDailyInfo
+)
