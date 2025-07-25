@@ -89,6 +89,7 @@
     "Gradle.MainScreenViewModelTest.should call loadWeatherInfo on onSearchLocation.executor": "Run",
     "Gradle.MainScreenViewModelTest.should call weatherRepository if at least one location is provided.executor": "Debug",
     "Gradle.MainScreenViewModelTest.should update search results on query change.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -105,6 +106,9 @@
     "git-widget-placeholder": "main",
     "last_directory_selection": "/Users/keivannorouzi/AndroidStudioProjects/rbc-weather/RbcWeather/app/src/androidTest/java/com/example/rbcweather/presentation",
     "last_opened_file_path": "/Users/keivannorouzi/AndroidStudioProjects/rbc-weather",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
