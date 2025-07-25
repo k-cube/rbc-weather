@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8' ?>
-<testsuite name="com.example.rbcweather.presentation.detailscreen.WeatherDetailScreenTest" tests="1" failures="0" errors="0" skipped="0" time="3.799" timestamp="2025-07-25T15:54:37" hostname="localhost">
-  <properties>
-    <property name="device" value="Pixel_6_Pro(AVD) - 16" />
-    <property name="flavor" value="" />
-    <property name="project" value=":app" />
-  </properties>
-  <testcase name="shouldShowLocationName" classname="com.example.rbcweather.presentation.detailscreen.WeatherDetailScreenTest" time="1.903" />
-</testsuite>
