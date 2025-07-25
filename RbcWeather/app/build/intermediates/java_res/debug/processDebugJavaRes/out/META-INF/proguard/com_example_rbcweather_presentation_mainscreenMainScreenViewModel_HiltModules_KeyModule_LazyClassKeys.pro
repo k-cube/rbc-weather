@@ -1,0 +1,4 @@
+-keep,allowobfuscation,allowshrinking class com.example.rbcweather.presentation.MainScreenViewModel
+-keep,allowobfuscation,allowshrinking class com.example.rbcweather.presentation.MainScreenViewModel
+-keep,allowobfuscation,allowshrinking class com.example.rbcweather.presentation.mainscreen.MainScreenViewModel
+-keep,allowobfuscation,allowshrinking class com.example.rbcweather.presentation.mainscreen.MainScreenViewModel

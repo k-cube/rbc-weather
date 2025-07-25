@@ -1,0 +1,225 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.rbcweather"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/keivannorouzi/AndroidStudioProjects/rbc-weather/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/keivannorouzi/AndroidStudioProjects/rbc-weather/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->/Users/keivannorouzi/AndroidStudioProjects/rbc-weather/app/src/main/AndroidManifest.xml:6:5-81
+12-->/Users/keivannorouzi/AndroidStudioProjects/rbc-weather/app/src/main/AndroidManifest.xml:6:22-78
+13
+14    <permission
+14-->[androidx.core:core:1.16.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/57fbc74be12ec1fd8a4f192eb70d1abc/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
+15        android:name="com.example.rbcweather.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.16.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/57fbc74be12ec1fd8a4f192eb70d1abc/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.16.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/57fbc74be12ec1fd8a4f192eb70d1abc/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.example.rbcweather.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.16.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/57fbc74be12ec1fd8a4f192eb70d1abc/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.16.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/57fbc74be12ec1fd8a4f192eb70d1abc/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
+19    <uses-permission android:name="android.permission.REORDER_TASKS" />
+19-->[androidx.test:core:1.6.1] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/7b61dc549c5946c239ba5ccbca172fad/transformed/core-1.6.1/AndroidManifest.xml:24:5-72
+19-->[androidx.test:core:1.6.1] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/7b61dc549c5946c239ba5ccbca172fad/transformed/core-1.6.1/AndroidManifest.xml:24:22-69
+20
+21    <application
+21-->/Users/keivannorouzi/AndroidStudioProjects/rbc-weather/app/src/main/AndroidManifest.xml:8:5-29:19
+22        android:name="com.example.rbcweather.presentation.WeatherApplication"
+22-->/Users/keivannorouzi/AndroidStudioProjects/rbc-weather/app/src/main/AndroidManifest.xml:10:9-56
+23        android:allowBackup="true"
+23-->/Users/keivannorouzi/AndroidStudioProjects/rbc-weather/app/src/main/AndroidManifest.xml:9:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.16.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/57fbc74be12ec1fd8a4f192eb70d1abc/transformed/core-1.16.0/AndroidManifest.xml:28:18-86
+25        android:dataExtractionRules="@xml/data_extraction_rules"
+25-->/Users/keivannorouzi/AndroidStudioProjects/rbc-weather/app/src/main/AndroidManifest.xml:11:9-65
+26        android:debuggable="true"
+27        android:extractNativeLibs="false"
+28        android:fullBackupContent="@xml/backup_rules"
+28-->/Users/keivannorouzi/AndroidStudioProjects/rbc-weather/app/src/main/AndroidManifest.xml:12:9-54
+29        android:icon="@mipmap/ic_launcher"
+29-->/Users/keivannorouzi/AndroidStudioProjects/rbc-weather/app/src/main/AndroidManifest.xml:13:9-43
+30        android:label="@string/app_name"
+30-->/Users/keivannorouzi/AndroidStudioProjects/rbc-weather/app/src/main/AndroidManifest.xml:14:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->/Users/keivannorouzi/AndroidStudioProjects/rbc-weather/app/src/main/AndroidManifest.xml:15:9-54
+32        android:supportsRtl="true"
+32-->/Users/keivannorouzi/AndroidStudioProjects/rbc-weather/app/src/main/AndroidManifest.xml:16:9-35
+33        android:testOnly="true"
+34        android:theme="@style/Theme.RbcWeather" >
+34-->/Users/keivannorouzi/AndroidStudioProjects/rbc-weather/app/src/main/AndroidManifest.xml:17:9-48
+35        <activity
+35-->/Users/keivannorouzi/AndroidStudioProjects/rbc-weather/app/src/main/AndroidManifest.xml:19:9-28:20
+36            android:name="com.example.rbcweather.presentation.MainActivity"
+36-->/Users/keivannorouzi/AndroidStudioProjects/rbc-weather/app/src/main/AndroidManifest.xml:20:13-54
+37            android:exported="true"
+37-->/Users/keivannorouzi/AndroidStudioProjects/rbc-weather/app/src/main/AndroidManifest.xml:21:13-36
+38            android:label="todo"
+38-->/Users/keivannorouzi/AndroidStudioProjects/rbc-weather/app/src/main/AndroidManifest.xml:22:13-33
+39            android:theme="@style/Theme.RbcWeather" >
+39-->/Users/keivannorouzi/AndroidStudioProjects/rbc-weather/app/src/main/AndroidManifest.xml:23:13-52
+40            <intent-filter>
+40-->/Users/keivannorouzi/AndroidStudioProjects/rbc-weather/app/src/main/AndroidManifest.xml:24:13-27:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->/Users/keivannorouzi/AndroidStudioProjects/rbc-weather/app/src/main/AndroidManifest.xml:25:17-69
+41-->/Users/keivannorouzi/AndroidStudioProjects/rbc-weather/app/src/main/AndroidManifest.xml:25:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->/Users/keivannorouzi/AndroidStudioProjects/rbc-weather/app/src/main/AndroidManifest.xml:26:17-77
+43-->/Users/keivannorouzi/AndroidStudioProjects/rbc-weather/app/src/main/AndroidManifest.xml:26:27-74
+44            </intent-filter>
+45        </activity>
+46        <activity
+46-->[com.google.android.gms:play-services-base:18.5.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/419e392416258869e23c59d1a1229ac3/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+47            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+47-->[com.google.android.gms:play-services-base:18.5.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/419e392416258869e23c59d1a1229ac3/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+48            android:exported="false"
+48-->[com.google.android.gms:play-services-base:18.5.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/419e392416258869e23c59d1a1229ac3/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+49            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+49-->[com.google.android.gms:play-services-base:18.5.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/419e392416258869e23c59d1a1229ac3/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+50
+51        <meta-data
+51-->[com.google.android.gms:play-services-basement:18.4.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/eec3c33f6ae8992db27f0d73f75b44d8/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+52            android:name="com.google.android.gms.version"
+52-->[com.google.android.gms:play-services-basement:18.4.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/eec3c33f6ae8992db27f0d73f75b44d8/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+53            android:value="@integer/google_play_services_version" />
+53-->[com.google.android.gms:play-services-basement:18.4.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/eec3c33f6ae8992db27f0d73f75b44d8/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+54
+55        <activity
+55-->[androidx.compose.ui:ui-tooling-android:1.8.2] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/e48a1ff845359ff5ef3886111c7e8aa8/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+56            android:name="androidx.compose.ui.tooling.PreviewActivity"
+56-->[androidx.compose.ui:ui-tooling-android:1.8.2] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/e48a1ff845359ff5ef3886111c7e8aa8/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+57            android:exported="true" />
+57-->[androidx.compose.ui:ui-tooling-android:1.8.2] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/e48a1ff845359ff5ef3886111c7e8aa8/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+58        <activity
+58-->[androidx.compose.ui:ui-test-manifest:1.8.2] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/639d4b2e7e812440a639c6bfd255efc5/transformed/ui-test-manifest-1.8.2/AndroidManifest.xml:23:9-26:79
+59            android:name="androidx.activity.ComponentActivity"
+59-->[androidx.compose.ui:ui-test-manifest:1.8.2] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/639d4b2e7e812440a639c6bfd255efc5/transformed/ui-test-manifest-1.8.2/AndroidManifest.xml:24:13-63
+60            android:exported="true"
+60-->[androidx.compose.ui:ui-test-manifest:1.8.2] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/639d4b2e7e812440a639c6bfd255efc5/transformed/ui-test-manifest-1.8.2/AndroidManifest.xml:25:13-36
+61            android:theme="@android:style/Theme.Material.Light.NoActionBar" />
+61-->[androidx.compose.ui:ui-test-manifest:1.8.2] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/639d4b2e7e812440a639c6bfd255efc5/transformed/ui-test-manifest-1.8.2/AndroidManifest.xml:26:13-76
+62
+63        <provider
+63-->[androidx.emoji2:emoji2:1.4.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/94d876f67ce8d2bfad8edbeb0668671b/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+64            android:name="androidx.startup.InitializationProvider"
+64-->[androidx.emoji2:emoji2:1.4.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/94d876f67ce8d2bfad8edbeb0668671b/transformed/emoji2-1.4.0/AndroidManifest.xml:25:13-67
+65            android:authorities="com.example.rbcweather.androidx-startup"
+65-->[androidx.emoji2:emoji2:1.4.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/94d876f67ce8d2bfad8edbeb0668671b/transformed/emoji2-1.4.0/AndroidManifest.xml:26:13-68
+66            android:exported="false" >
+66-->[androidx.emoji2:emoji2:1.4.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/94d876f67ce8d2bfad8edbeb0668671b/transformed/emoji2-1.4.0/AndroidManifest.xml:27:13-37
+67            <meta-data
+67-->[androidx.emoji2:emoji2:1.4.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/94d876f67ce8d2bfad8edbeb0668671b/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+68                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+68-->[androidx.emoji2:emoji2:1.4.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/94d876f67ce8d2bfad8edbeb0668671b/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
+69                android:value="androidx.startup" />
+69-->[androidx.emoji2:emoji2:1.4.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/94d876f67ce8d2bfad8edbeb0668671b/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
+70            <meta-data
+70-->[androidx.lifecycle:lifecycle-process:2.9.1] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/1b4bb238f014ebcbcf6c44da9852e9bd/transformed/lifecycle-process-2.9.1/AndroidManifest.xml:29:13-31:52
+71                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+71-->[androidx.lifecycle:lifecycle-process:2.9.1] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/1b4bb238f014ebcbcf6c44da9852e9bd/transformed/lifecycle-process-2.9.1/AndroidManifest.xml:30:17-78
+72                android:value="androidx.startup" />
+72-->[androidx.lifecycle:lifecycle-process:2.9.1] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/1b4bb238f014ebcbcf6c44da9852e9bd/transformed/lifecycle-process-2.9.1/AndroidManifest.xml:31:17-49
+73            <meta-data
+73-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/435680f4d6ced479101607bf76a71e5d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+74                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+74-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/435680f4d6ced479101607bf76a71e5d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+75                android:value="androidx.startup" />
+75-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/435680f4d6ced479101607bf76a71e5d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+76        </provider>
+77
+78        <activity
+78-->[androidx.test:core:1.6.1] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/7b61dc549c5946c239ba5ccbca172fad/transformed/core-1.6.1/AndroidManifest.xml:27:9-34:20
+79            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+79-->[androidx.test:core:1.6.1] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/7b61dc549c5946c239ba5ccbca172fad/transformed/core-1.6.1/AndroidManifest.xml:28:13-99
+80            android:exported="true"
+80-->[androidx.test:core:1.6.1] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/7b61dc549c5946c239ba5ccbca172fad/transformed/core-1.6.1/AndroidManifest.xml:29:13-36
+81            android:theme="@style/WhiteBackgroundTheme" >
+81-->[androidx.test:core:1.6.1] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/7b61dc549c5946c239ba5ccbca172fad/transformed/core-1.6.1/AndroidManifest.xml:30:13-56
+82            <intent-filter android:priority="-100" >
+82-->[androidx.test:core:1.6.1] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/7b61dc549c5946c239ba5ccbca172fad/transformed/core-1.6.1/AndroidManifest.xml:31:13-33:29
+82-->[androidx.test:core:1.6.1] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/7b61dc549c5946c239ba5ccbca172fad/transformed/core-1.6.1/AndroidManifest.xml:31:28-51
+83                <category android:name="android.intent.category.LAUNCHER" />
+83-->/Users/keivannorouzi/AndroidStudioProjects/rbc-weather/app/src/main/AndroidManifest.xml:26:17-77
+83-->/Users/keivannorouzi/AndroidStudioProjects/rbc-weather/app/src/main/AndroidManifest.xml:26:27-74
+84            </intent-filter>
+85        </activity>
+86        <activity
+86-->[androidx.test:core:1.6.1] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/7b61dc549c5946c239ba5ccbca172fad/transformed/core-1.6.1/AndroidManifest.xml:35:9-42:20
+87            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+87-->[androidx.test:core:1.6.1] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/7b61dc549c5946c239ba5ccbca172fad/transformed/core-1.6.1/AndroidManifest.xml:36:13-95
+88            android:exported="true"
+88-->[androidx.test:core:1.6.1] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/7b61dc549c5946c239ba5ccbca172fad/transformed/core-1.6.1/AndroidManifest.xml:37:13-36
+89            android:theme="@style/WhiteBackgroundTheme" >
+89-->[androidx.test:core:1.6.1] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/7b61dc549c5946c239ba5ccbca172fad/transformed/core-1.6.1/AndroidManifest.xml:38:13-56
+90            <intent-filter android:priority="-100" >
+90-->[androidx.test:core:1.6.1] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/7b61dc549c5946c239ba5ccbca172fad/transformed/core-1.6.1/AndroidManifest.xml:31:13-33:29
+90-->[androidx.test:core:1.6.1] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/7b61dc549c5946c239ba5ccbca172fad/transformed/core-1.6.1/AndroidManifest.xml:31:28-51
+91                <category android:name="android.intent.category.LAUNCHER" />
+91-->/Users/keivannorouzi/AndroidStudioProjects/rbc-weather/app/src/main/AndroidManifest.xml:26:17-77
+91-->/Users/keivannorouzi/AndroidStudioProjects/rbc-weather/app/src/main/AndroidManifest.xml:26:27-74
+92            </intent-filter>
+93        </activity>
+94        <activity
+94-->[androidx.test:core:1.6.1] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/7b61dc549c5946c239ba5ccbca172fad/transformed/core-1.6.1/AndroidManifest.xml:43:9-50:20
+95            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+95-->[androidx.test:core:1.6.1] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/7b61dc549c5946c239ba5ccbca172fad/transformed/core-1.6.1/AndroidManifest.xml:44:13-103
+96            android:exported="true"
+96-->[androidx.test:core:1.6.1] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/7b61dc549c5946c239ba5ccbca172fad/transformed/core-1.6.1/AndroidManifest.xml:45:13-36
+97            android:theme="@style/WhiteBackgroundDialogTheme" >
+97-->[androidx.test:core:1.6.1] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/7b61dc549c5946c239ba5ccbca172fad/transformed/core-1.6.1/AndroidManifest.xml:46:13-62
+98            <intent-filter android:priority="-100" >
+98-->[androidx.test:core:1.6.1] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/7b61dc549c5946c239ba5ccbca172fad/transformed/core-1.6.1/AndroidManifest.xml:31:13-33:29
+98-->[androidx.test:core:1.6.1] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/7b61dc549c5946c239ba5ccbca172fad/transformed/core-1.6.1/AndroidManifest.xml:31:28-51
+99                <category android:name="android.intent.category.LAUNCHER" />
+99-->/Users/keivannorouzi/AndroidStudioProjects/rbc-weather/app/src/main/AndroidManifest.xml:26:17-77
+99-->/Users/keivannorouzi/AndroidStudioProjects/rbc-weather/app/src/main/AndroidManifest.xml:26:27-74
+100            </intent-filter>
+101        </activity>
+102
+103        <receiver
+103-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/435680f4d6ced479101607bf76a71e5d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+104            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+104-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/435680f4d6ced479101607bf76a71e5d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+105            android:directBootAware="false"
+105-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/435680f4d6ced479101607bf76a71e5d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+106            android:enabled="true"
+106-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/435680f4d6ced479101607bf76a71e5d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+107            android:exported="true"
+107-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/435680f4d6ced479101607bf76a71e5d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+108            android:permission="android.permission.DUMP" >
+108-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/435680f4d6ced479101607bf76a71e5d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+109            <intent-filter>
+109-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/435680f4d6ced479101607bf76a71e5d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+110                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+110-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/435680f4d6ced479101607bf76a71e5d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+110-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/435680f4d6ced479101607bf76a71e5d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+111            </intent-filter>
+112            <intent-filter>
+112-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/435680f4d6ced479101607bf76a71e5d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+113                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+113-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/435680f4d6ced479101607bf76a71e5d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+113-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/435680f4d6ced479101607bf76a71e5d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+114            </intent-filter>
+115            <intent-filter>
+115-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/435680f4d6ced479101607bf76a71e5d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+116                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+116-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/435680f4d6ced479101607bf76a71e5d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+116-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/435680f4d6ced479101607bf76a71e5d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+117            </intent-filter>
+118            <intent-filter>
+118-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/435680f4d6ced479101607bf76a71e5d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+119                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+119-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/435680f4d6ced479101607bf76a71e5d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+119-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/keivannorouzi/.gradle/caches/8.11.1/transforms/435680f4d6ced479101607bf76a71e5d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+120            </intent-filter>
+121        </receiver>
+122    </application>
+123
+124</manifest>

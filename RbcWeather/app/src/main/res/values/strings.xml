@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RbcWeather</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="empty_screen_message">Something went wrong!\nCould not load weather info</string>
+    <string name="location_permission_message">Location permission has not been granted.\n Please tap here to grant it.</string>
+    <string name="current_weather">Current Weather</string>
+    <string name="weather_overview">Weather Overview</string>
+</resources>
